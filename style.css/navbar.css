@@ -274,4 +274,5 @@ header {
 
 .headerinfo>div>img{
     width: 100%;
+    opacity: 0.1;
 }
