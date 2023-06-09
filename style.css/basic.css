@@ -1,0 +1,32 @@
+/* >>>>>>>>  fonts <<<<<<<<<<<< */
+@font-face {
+    font-family: DMSerifDisplay;
+    src: url(/fonts/DMSerifDisplay-Regular.ttf);
+}
+/* >>>>>>>>>>>>>> COLOR <<<<<<<<<<<< */
+:root{
+    --main-color: #2A3950;
+    --btn-bg-color:#00E0C7;
+    --h-p-color:#FFFFFF;
+}
+/* >>>>>>>>>>>> HTML <<<<<<<<<<<< */
+html{
+    font-size: 62.5%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* ............... BASIC STYLE .................. */
+* , *::before , *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width:162rem ;
+    margin: 0 auto;
+}
